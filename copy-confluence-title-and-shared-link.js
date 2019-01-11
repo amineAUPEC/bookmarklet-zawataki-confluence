@@ -19,8 +19,10 @@ javascript: (function () {
   }
 
   function main() {
-    const pageTitle = document.title
-      .replace(/ - Space title - Confluence$/, ''); /* TODO: Change "Space title" according to each space */
+    const spaceName = $("meta[name='ajs-space-name']")[0].content;
+    const siteTitle = $("meta[name='ajs-site-title']")[0].content;
+    const regexp = new RegExp(' - ' + spaceName + ' - ' + siteTitle + '$');
+    const pageTitle = document.title.replace(regexp, '');
 
     const sharedLink = $("link[rel='shortlink']")[0].href;
     console.log('sharedLink: ' + sharedLink);
