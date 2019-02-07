@@ -1,5 +1,5 @@
-/* Add button to copy Confluence code block without adding space to empty line */
 javascript: (function () {
+  /* Add button to copy Confluence code block without adding space to empty line */
 
   /**
   * @param  {String} textVal A text to copy to clipboard
