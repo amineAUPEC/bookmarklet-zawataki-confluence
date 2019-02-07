@@ -28,10 +28,16 @@ javascript: (function () {
 
     const codeWithCorrectEmptyLine = $(codeBlockElement)
       .find('td.code > div.container > div')
-      .map(function (index, element) {
+      .map((index, element) => {
+        let currentHtml = $(element).html();
+
         let newHtml = $(element).html().replace(/&nbsp;$/, "");
         $(element).html(newHtml);
-        return $(element).text().replace(/\u00A0/g, " ");
+        let replacedText = $(element).text().replace(/\u00A0/g, " ");
+
+        $(element).html(currentHtml);
+
+        return replacedText;
       })
       .get()
       .join("\n");
