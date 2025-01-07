@@ -41,7 +41,7 @@ This repository provides a collection of bookmarklets to enhance your Confluence
     * **expand-all-code-block-macro.js**
         * **Outline:**
             1. **Expand each block of macros** :  
-# minified version using [chriszarate bookmarkleter](https://chriszarate.github.io/bookmarkleter/)
+# Minified version using [chriszarate bookmarkleter](https://chriszarate.github.io/bookmarkleter/)
 
 > [!TIP]
 > Open this readme in a markdown / text editor such as vscode  
