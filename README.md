@@ -45,9 +45,10 @@ This repository provides a collection of bookmarklets to enhance your Confluence
             1. **Expand each block of macros** :  
 # minified version using [chriszarate bookmarkleter](https://chriszarate.github.io/bookmarkleter/)
 
-> Open this readme in a markdown / text editor such as vscode 
-> Just drag and drop the link into your favorite bars or sub-folders
-> display the favorite bar with <kbd> CTRL+B </kbd>
+> [!TIP]
+> Open this readme in a markdown / text editor such as vscode  
+> Just drag and drop the link into your favorite bars or sub-folders  
+> display the favorite bar with <kbd> CTRL+B </kbd>  
 
 
 add-button-to-copy-code-macro-of-confluence.js
@@ -74,7 +75,7 @@ expand-all-code-block-macro.js
 [expand-all-code-block-macro.js](javascript:void%20function(){javascript:(function(){$(%22.expand-control-icon%22).not(%22.expanded%22).each(function(){$(this).click()})})()}();)
 
 
-### JS every codes to copy 
+# JS every codes to copy 
 
 add-button-to-copy-code-macro-of-confluence.js
 
