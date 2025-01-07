@@ -1,5 +1,3 @@
-Certainly, here's an enhanced README file for the `zawataki/bookmarklet` repository, including 3 outlines for each JavaScript file:
-
 # **README.md**
 
 **Bookmarklets for Confluence or JIRA**
